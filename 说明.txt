@@ -1,0 +1,13 @@
+这是一个本地库，用于管理文件
+
+工作区--暂存区--本地库
+ add commit
+git ls-files可以查看本地库中的文件列表
+
+回退操作：git reset --hard HEAD^
+git reset --hard HEAD~3
+未来操作：git reset --hard 标识符
+
+
+
+在工作区删除不会影响到本地库，所以误删的文件可以checkout，如果想彻底删除文件，就输入git rm txt
